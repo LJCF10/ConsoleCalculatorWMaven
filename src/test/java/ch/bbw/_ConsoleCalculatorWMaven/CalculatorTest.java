@@ -21,5 +21,19 @@ public class CalculatorTest {
 		assertTrue(testee.subtraktion(20, 10) == 10);
 		
 	}
+	
+	@Test
+	public void testSubNegative() {
+		testee = new Calculator();
+		assertTrue(testee.subtraktion(10, 20) == -10);
+		
+	}
+	
+	@Test
+	public void testAddNegative() {
+		testee = new Calculator();
+		assertTrue(testee.addition(-100, 10) == -90);
+		
+	}
 
 }
