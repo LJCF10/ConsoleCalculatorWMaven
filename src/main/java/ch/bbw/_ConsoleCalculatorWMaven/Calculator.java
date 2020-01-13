@@ -8,7 +8,7 @@ public class Calculator {
 	}
 	
 	public int subtraktion(int one, int two) {
-		return 0;
+		return one - two;
 	}
 	
 
