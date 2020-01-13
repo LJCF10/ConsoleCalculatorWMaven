@@ -13,5 +13,7 @@ public class App
         Calculator calc = new Calculator();
         
         System.out.println(calc.addition(3,5));
+        
+        System.out.println(calc.division(6,0));
     }
 }
