@@ -9,5 +9,9 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+        
+        Calculator calc = new Calculator();
+        
+        System.out.println(calc.addition(3,5));
     }
 }
