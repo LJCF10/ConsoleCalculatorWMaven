@@ -41,5 +41,12 @@ public class CalculatorTest {
 		assertTrue(testee.addition(-100, 10) == -90);
 		
 	}
+	
+	@Test(expected=ArithmeticException.class)
+	public void testExpEx() {
+		testee = new Calculator();
+		assertTrue(testee.division(100, 0) == 0);
+		
+	}
 
 }

@@ -11,5 +11,9 @@ public class Calculator {
 		return one - two;
 	}
 	
+	public int division(int one, int two) {
+		return one / two;
+	}
+	
 
 }
