@@ -2,22 +2,28 @@ package ch.bbw._ConsoleCalculatorWMaven;
 
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 
 public class CalculatorTest {
 	
 	Calculator testee;
+	
+	@Before 
+	public void setUP() {
+		testee = new Calculator();
+	}
+	
 
 	@Test
 	public void testAddPositiv() {
-		testee = new Calculator();
+		
 		assertTrue(testee.addition(2, 10) == 12);
 		
 	}
 	
 	@Test
 	public void testSubPositiv() {
-		testee = new Calculator();
 		assertTrue(testee.subtraktion(20, 10) == 10);
 		
 	}

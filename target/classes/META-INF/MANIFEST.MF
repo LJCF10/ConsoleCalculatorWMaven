@@ -1,5 +1,6 @@
 Manifest-Version: 1.0
 Built-By: Lenny
 Build-Jdk: 10.0.2
+Main-Class: ch.bbw._ConsoleCalculatorWMaven.App
 Created-By: Maven Integration for Eclipse
 
