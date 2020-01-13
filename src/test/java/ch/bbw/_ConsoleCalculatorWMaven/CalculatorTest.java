@@ -14,5 +14,12 @@ public class CalculatorTest {
 		assertTrue(testee.addition(2, 10) == 12);
 		
 	}
+	
+	@Test
+	public void testSubPositiv() {
+		testee = new Calculator();
+		assertTrue(testee.subtraktion(20, 10) == 10);
+		
+	}
 
 }
