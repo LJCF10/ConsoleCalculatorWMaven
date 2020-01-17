@@ -14,6 +14,6 @@ public class App
         
         System.out.println(calc.addition(3,5));
         
-        System.out.println(calc.division(6,0));
+        //System.out.println(calc.division(6,0));
     }
 }
