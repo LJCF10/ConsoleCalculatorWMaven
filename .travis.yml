@@ -1,3 +1,11 @@
 language: java
-sudo: false 
-script: mvn install 
+sudo: false
+script: mvn install
+deploy:
+  provider: releases
+  api_key:
+    secure: B9O9V7k+ooEu8zOteYUDNuDrjuIu/WXYQje3CqHZhBusznE1fOCMAwcsPJz8yGBZDPHH27duW1M8ysP+ALOqWuWLfFgWazXJ0g2PQqeg2TmeGFI9PLhTS2JXvcWtMOHkItcls40b+F7+c3/9OcHpAILo0nmK17NqxUgYYTLYbvAQeBa7wwA03IMdLTrv+AMzSTFp/FJK9/9Adpsoeg92ScVXB5RPEJMD1ZL9HN5CCN86msR/+5hbObJkerJbzFNDMALRYPxtld0Bfi+i+sDuvsvLxkIedrCAzlSreLF33JPBTNXQfETLSs+I/R808UnKGrDuyRLL1MyaG98wrpubx2vYE9RjtyhRdut/jkL0OncUtYlsvE7O3fH3S9y10w/jgRlQAfFdny769TSIN3DJShWshgxAw8kZ6PE8Air0bc20GYFXnbwZPxoge8cKIjQtJc4NPIELFIhWxBKJN6TRu3O87Qp4guqRoe5Itykpnn2BuOLodDn1ETmMMU937tTjo96p/Z91dt5YSpZATkmcSuiFTVrBGkTneSkU7dPn52LYIRpKiN6UMNSXY0ngjjHrDYoYRsuieXrCsd13eqk+l64G0PGs9e5olMXqayNBW7BVZNlUpAXknzK9FfpIe18mEU5jPRe05Eq2AUdP1H+jIivZ5rAn13LyC6pvE9UYkm8=
+  file: "\\target\\03_ConsoleCalculatorWMaven-0.0.1-SNAPSHOT.jar"
+  on:
+    repo: LJCF10/ConsoleCalculatorWMaven
+    
